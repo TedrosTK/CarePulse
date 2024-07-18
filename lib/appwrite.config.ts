@@ -5,7 +5,7 @@ const {
     NEXT_PUBLIC_BUCKET_ID: BUCKET_ID, 
     NEXT_PUBLIC_ENDPOINT: ENDPOINT
 
-} = process.env
+} = process.env;
 
 const client = new sdk.Client();
 
